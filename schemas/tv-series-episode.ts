@@ -9,6 +9,12 @@ export default {
       title: 'Title',
     },
     {
+      name: 'library',
+      type: 'reference',
+      to: {type: 'library'},
+      title: 'Library',
+    },
+    {
       name: 'number',
       type: 'number',
       title: 'Number',
@@ -22,6 +28,17 @@ export default {
       name: 'notes',
       type: 'string',
       title: 'Notes',
+    },
+    {
+      name: 'content_rating',
+      type: 'string',
+      title: 'Rating',
+    },
+    {
+      name: 'owned',
+      type: 'boolean',
+      title: 'Owned',
+      description: 'Whether or not you own this episode.',
     },
   ],
 }

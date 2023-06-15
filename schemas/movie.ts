@@ -1,7 +1,7 @@
 export default {
-  name: 'tvSeries',
+  name: 'movie',
   type: 'document',
-  title: 'TV Series',
+  title: 'Movie',
   fields: [
     {
       name: 'short_title',
@@ -20,15 +20,9 @@ export default {
       title: 'Full Title',
     },
     {
-      name: 'tag_line',
-      type: 'string',
-      title: 'Tag Line',
-    },
-    {
       name: 'owned',
       type: 'boolean',
       title: 'Owned',
-      description: 'Whether or not you own this Series.',
     },
   ],
 }

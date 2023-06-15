@@ -1,7 +1,7 @@
 export default {
-  name: 'library',
+  name: 'recipe',
   type: 'document',
-  title: 'Library',
+  title: 'Recipe',
   fields: [
     {
       name: 'name',
@@ -9,10 +9,10 @@ export default {
       title: 'Name',
     },
     {
-      name: 'owner',
+      name: 'library',
       type: 'reference',
-      to: {type: 'user'},
-      title: 'Owner'
-    }
+      to: {type: 'library'},
+      title: 'Library',
+    },
   ],
 }

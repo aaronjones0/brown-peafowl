@@ -9,6 +9,12 @@ export default {
       title: 'Short Title',
     },
     {
+      name: 'library',
+      type: 'reference',
+      to: {type: 'library'},
+      title: 'Library',
+    },
+    {
       name: 'full_title',
       type: 'string',
       title: 'Full Title',
@@ -58,6 +64,12 @@ export default {
       name: 'cover_image',
       type: 'image',
       title: 'Cover'
-    }
+    },
+    {
+      name: 'owned',
+      type: 'boolean',
+      title: 'Owned',
+      description: 'Whether or not you own this Book.',
+    },
   ],
 }

@@ -2,11 +2,18 @@ export default {
   name: 'artist',
   type: 'document',
   title: 'Artist',
+  description: 'Anyone who participated in the creation of something in your library.',
   fields: [
     {
       name: 'full_name',
       type: 'string',
       title: 'Full Name',
+    },
+    {
+      name: 'library',
+      type: 'reference',
+      to: {type: 'library'},
+      title: 'Library',
     },
     {
       name: 'photos',
