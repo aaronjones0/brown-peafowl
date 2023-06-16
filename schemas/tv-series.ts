@@ -30,5 +30,10 @@ export default {
       title: 'Owned',
       description: 'Whether or not you own this Series.',
     },
+    {
+      name: 'image_primary',
+      type: 'image',
+      title: 'Primary Image'
+    }
   ],
 }
