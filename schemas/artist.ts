@@ -28,7 +28,7 @@ export default {
       of: [
         {
           type: 'reference',
-          to: [{type: 'book'}, {type: 'tvSeries'}, {type: 'tvSeriesEpisode'}],
+          to: [{type: 'book'}, {type: 'tvSeries'}, {type: 'tvSeriesEpisode'}, {type: 'manga'}],
         },
       ],
     },
