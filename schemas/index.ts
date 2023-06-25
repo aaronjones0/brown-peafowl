@@ -1,3 +1,4 @@
+import account from './account'
 import album from './album'
 import artist from './artist'
 import artwork from './artwork'
@@ -7,6 +8,7 @@ import figure from './figure'
 import garment from './garment'
 import library from './library'
 import manga from './manga'
+import meme from './meme'
 import movie from './movie'
 import podcast from './podcast'
 import podcastEpisode from './podcast-episode'
@@ -19,6 +21,7 @@ import user from './user'
 import videoGame from './video-game'
 
 export const schemaTypes = [
+  account,
   album,
   artist,
   artwork,
@@ -28,6 +31,7 @@ export const schemaTypes = [
   garment,
   library,
   manga,
+  meme,
   movie,
   podcast,
   podcastEpisode,
