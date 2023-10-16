@@ -10,6 +10,11 @@ export default {
       title: 'Full Name',
     },
     {
+      name: 'major_update',
+      type: 'string',
+      title: 'Major Update',
+    },
+    {
       name: 'library',
       type: 'reference',
       to: {type: 'library'},
