@@ -9,11 +9,6 @@ export default {
       title: 'Full Name',
     },
     {
-      name: 'full_name2',
-      type: 'string',
-      title: 'Full Name 2',
-    },
-    {
       name: 'first_name',
       type: 'string',
       title: 'First Name',
